@@ -1,0 +1,42 @@
+.loadingDots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5px 0;
+    .dots{
+        width: 10px;
+        height: 10px;
+        background-color: var(--color-border-primary); // Change to match your button's text color
+        border-radius: 50%;
+        margin: 0 2px;
+        animation: bounce 0.6s infinite alternate;
+        opacity: 0.6;
+        &:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        &:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+    }
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+.visuallyHidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}

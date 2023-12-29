@@ -1,0 +1,42 @@
+.authBannerWrapper{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    .langHold{
+   position: absolute;
+   top: 3em;
+   button{color: white;}
+    }
+    @media screen and (max-width:700px) {
+     width: 100%;
+     min-height: 700px;
+   
+    }
+    .backgroundImg{
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .infoHolder{
+      color: white;
+      h1{
+       margin: 0.67em 0;
+      }
+      h2{
+        margin:  0.83em 0;
+        font-size: 1.17em;
+      }
+      p{
+        margin: 1em 0;
+        max-width: 60%;
+      }
+    }
+  }

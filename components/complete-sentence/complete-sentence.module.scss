@@ -1,0 +1,18 @@
+.wordsHolder{
+ 
+}
+.wordsHolder button, .sentencewordHolder button {
+    transition: transform 0.6s ease-in-out;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 0.5em;
+    margin: 1em;
+    cursor: pointer;
+    font-family: 'noto-bold';
+    &:lang(ar){
+        font-family: 'noto-bold-arabic';
+    }
+    &:active {
+        transform: scale(0);
+    }
+}

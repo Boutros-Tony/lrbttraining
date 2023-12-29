@@ -1,0 +1,54 @@
+.dot {
+    width: 1em;
+    height: 1em;
+    border-radius: 100%;
+    animation: growFade 2s infinite; // Apply the animation
+    margin-left: 0.5em;
+    cursor: pointer; // Optional, to indicate it's clickable
+
+    p, .closeButton {
+        display: none; // Hide these elements initially
+    }
+}
+.dot {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%; // Ensure it's always a circle
+    position: relative;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    z-index: 2;
+
+    p, .closeButton {
+        display: none;
+    }
+
+    &.expanded {
+        width: 100vw;
+        height: 100vw; // Maintain aspect ratio for circle
+        max-width: 200vh; // Ensure it doesn't exceed viewport height
+        max-height: 200vh;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+
+        // Stop any animation when expanded
+        animation: none;
+    }
+}
+
+
+
+@keyframes growFade {
+    0% {
+        opacity: 1;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,28 @@
+.circleText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+    h2{
+        margin: 0;
+        margin-left: 1em;
+        &:lang(ar){
+            margin-right: 1em;
+            margin-left: 0;
+        }
+    }
+    .fullCircle{
+        width: 3em;
+        height: 3em;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: none;
+        .semiCircle{
+            background-color: rgb(210, 251, 251);
+            border-radius: 100%;
+        }
+    }
+}

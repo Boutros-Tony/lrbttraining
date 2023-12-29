@@ -1,0 +1,11 @@
+.paragraph{
+    padding: 0.5em 1em;
+    box-shadow: 1.53349px 3.06697px 3.83372px rgba(0,0,0,0.25);
+    font-family: 'noto-bold';
+    width: 80%;
+   margin-top: 1em;
+    margin-bottom: 1em;
+    &:lang(ar){
+        font-family: 'noto-bold-arabic';
+    }
+}

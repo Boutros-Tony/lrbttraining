@@ -1,0 +1,16 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1em;
+    label{
+        margin-bottom: 1em;
+    }
+    input {
+        margin-right: 0.5em;
+        &:lang(ar){
+            margin-left: 0.5em;
+            margin-right: 0em;
+        }
+    }
+}

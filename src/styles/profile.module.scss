@@ -1,0 +1,133 @@
+.profileWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .title{
+        font-family: 'noto-bold';
+        text-transform: capitalize;
+    }
+    .subtitle{
+        text-align: center;
+    }
+    .certificate{
+        width: 60%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-left: 10px solid var(--main-color);
+        padding-left: 1em;
+        margin-bottom: 1em;
+        direction: ltr;
+        @media screen and (max-width:700px) {
+            width: 95%;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding-top: 25px;
+            h1{
+                color: var(--main-color);
+                font-size: 2em;
+                direction: ltr !important;
+                font-family: 'noto-bold';
+            }
+            h2{
+                font-size:2em;
+                text-transform: capitalize;
+                margin-bottom: 1em;
+                font-family: 'noto-bold';
+            }
+            p{
+                font-family: 'noto-regular';
+            }
+        }
+        .certiLogo{
+            align-self: flex-start;
+            width: 25%;
+        }
+        .banner{
+            align-self: flex-end;
+            width: 40%;
+        }
+    }
+    h1{
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+    }
+    p{
+        margin-bottom: 1em;
+        margin-top: 0;
+    }
+    .noCertificate{
+        margin-top: 1em;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        background-color: #F5F5F7;
+        text-align: center;
+    
+    }
+    .profileInfo{
+        padding-top: 2em;
+        padding-bottom: 2em;
+        margin-top: 2em;
+        border-top: 0.25px solid rgba(0, 0, 0, 0.1176470588);
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       @media screen and (max-width:700px) {
+            width: 100%;
+       }
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            button{
+                @media screen and (max-width:700px) {
+                    margin-left: 2em;
+                }
+            }
+            @media screen and (max-width:700px) {
+                width: 100%;
+                align-items: flex-start;
+           }
+            label{
+                margin-bottom: 1em;
+            }
+        }
+        .doubleInputHolder{
+            display: flex;
+            flex-direction: row;
+            margin: 1em 0;
+            width: 100%;
+            @media screen and (max-width:700px) {
+                flex-direction: column;
+            }
+            .inputHolder{
+                display: flex;
+                flex-direction: column;
+                margin: 0em 2em;
+                @media screen and (max-width:700px) {
+                    margin-bottom: 1em;
+                }
+                input{
+                    border-radius: 10px;
+                    height: 50px;
+                    border: 1px solid var(--color-border-primary);
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+    
+}

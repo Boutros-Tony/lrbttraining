@@ -1,0 +1,43 @@
+.dropDown{
+    display: flex;
+    flex-direction: column;
+    padding: 0.8em;
+    width: 80%;
+    margin-bottom: 1em;
+    button{
+        background-color: transparent;
+        border: none;
+    }
+    box-shadow: 1.53349px 3.06697px 3.83372px rgba(0, 0, 0, 0.25);
+    .dropDownContent{
+        p{
+            margin: 1em 0;
+            margin-bottom: 0;
+            transition: all 0.5s ease;
+        }
+        transition: all 0.5s ease;
+    }
+    .dropDownButton{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        h3{
+            font-size: 1.2em;
+        }
+        .arrow{
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.5s ease-in;
+                img{
+                    width: 10px;
+                }
+        }
+    }
+}

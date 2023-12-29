@@ -1,0 +1,32 @@
+.sideNav{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    h3{
+        padding: 0.5em 1em;
+    }
+    a{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0.5em 1em;
+        &.active{
+            background-color: rgb(245, 245, 247);
+            border-left: 5px solid var(--main-color);
+        }
+        &:hover{
+            background-color: rgb(245, 245, 247);
+                }
+        .iconImg{
+            width: 20px;
+            height: 20px;
+            margin-right: 1em;
+        }
+        p{
+            font-size: 12px;
+            font-family: 'noto-light';
+            color: #141522;
+        }
+    
+    }
+}

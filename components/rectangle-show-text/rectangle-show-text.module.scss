@@ -1,0 +1,34 @@
+.rectangleShowText{
+    width: 80%;
+    background-color: rgb(50, 100, 200);
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0.5em 1em ;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    &.clickedBackground{
+        background-color: rgb(235, 245, 253);
+    }
+    p{
+        color: #230050;
+        font-family: 'noto-bold';
+        
+     
+        &:lang(ar){
+            font-family: 'noto-bold-arabic';
+        }
+    }
+    button{
+        background-color: transparent;
+        border: none;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        img{
+            width: 20px;
+        }
+    }
+}

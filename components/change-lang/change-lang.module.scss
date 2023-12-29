@@ -1,0 +1,15 @@
+.changeLang{
+    button{
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        &:first-of-type{
+            direction: ltr !important;
+            font-family: 'noto-bold';
+        }
+        &:last-of-type{
+            direction: rtl !important;
+            font-family: 'noto-bold-arabic';
+        }
+    }
+}

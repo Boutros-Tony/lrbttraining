@@ -1,0 +1,32 @@
+.bigRectangle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 200px;
+    margin-bottom: 1em;
+    span{
+        border-radius: 100%;
+        width: 1.5em;
+        height: 1.5em;
+        font-size: 1em;
+        font-family: 'noto-bold';
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.5em;
+        height: 2.5em;
+        margin: 1em 0em;
+        &:lang(ar){
+            font-family: 'noto-bold-arabic';
+        }
+    }
+    h1{
+        color: white;
+        margin: 0;
+        text-align: center;
+        font-size: 1.5em;
+    }
+}

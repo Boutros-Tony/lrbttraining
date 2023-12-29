@@ -1,0 +1,77 @@
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    border-bottom: 1px solid var(--color-border-primary);
+    .logo{
+        width: 140px;
+        margin-right: 1em;
+        img{
+            width: 100%;
+        }
+    }
+    .lfNav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .dropDown{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: relative;
+        img{
+            &:first-of-type{
+                width: 2em;
+            }
+            &:last-of-type{
+                width: 1em;
+            }
+        }
+        p{
+            margin: 0 1em;
+            text-transform: capitalize;
+            direction: ltr;
+            font-family: 'noto-regular';
+        }
+    }
+    .dropdownContent {
+        position: absolute; // Position absolutely relative to the dropdown
+        top: 150%; // Position it right below the dropdown button
+        left: 0; // Align to the left of the dropdown button
+        z-index: 100; // Ensures it's above other elements
+        background: #f5f5f7; // Change this based on your design
+        width: 100%; // Set the width as needed
+        transition: max-height 0.3s ease-out;
+        overflow: hidden;
+        max-height: 0; // Initially hide dropdown
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 4px rgba(0,0,0,.25);
+        border-radius: 5px;
+        display: none;
+        a,button{
+            border: none;
+            border-bottom: 1px solid  #9c9ca4 ;
+            padding: 0.5em 0.75em;
+            color: #1f054d;
+            
+            font-size: 1em;
+            background-color: transparent;
+            &:last-child{
+                border-bottom: none;
+            }
+        }
+        &.active {
+            display: flex;
+            max-height: 200px; // Adjust this value based on your content
+        }
+    }
+}
