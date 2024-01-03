@@ -114,12 +114,23 @@ const getResultsStyle = (questionId) => {
                         
                         <p aria-aria-live='polite'>{lang === 'ar' ? `الدرجة المتحصل عليها: ${grade.toFixed(2)}%` : `Grade received: ${grade.toFixed(2)}%`}</p>
                         {!isPassed && <p>{lang === 'ar' ? `للنجاح يلزم: ${gradeToPass}%` : `To pass: ${gradeToPass}%`}</p>}
-                        {isPassed ? <Link href="/chapters" className='mainButton'>{lang === 'ar' ? "اذهب إلى الفصول" : "Go To Chapters"}</Link> :    
-                            !isPassed && (
-                            <button className='mainButton' onClick={resetQuiz}>
-                                {lang === 'ar' ? "حاول مرة أخرى" : "Try Again"}
-                            </button>
-                        )}
+                        {isPassed && chapterNumber === '8' ? (
+                        <Link href="/profile" className='mainButton'>
+                            {lang === 'ar' ? "تحقق من شهادتك" : "Check Your Certificate"}
+                        </Link>
+                    ) : (
+                        isPassed && (
+                            <Link href="/chapters" className='mainButton'>
+                                {lang === 'ar' ? "اذهب إلى الفصول" : "Go To Chapters"}
+                            </Link>
+                        )
+                    )}
+
+                    {!isPassed && (
+                        <button className='mainButton' onClick={resetQuiz}>
+                            {lang === 'ar' ? "حاول مرة أخرى" : "Try Again"}
+                        </button>
+                    )}
                     </div>
                 )}
         <form className={styles.quizForm} onSubmit={handleSubmit}>

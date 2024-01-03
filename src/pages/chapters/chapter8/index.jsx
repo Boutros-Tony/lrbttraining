@@ -34,7 +34,7 @@ const NestedLayout = ({ currentQuestionId, children }) => {
             title:"Quiz",
             arTitle:'اختبار',
             icon:"/assets/video-icon.png",
-            link:"/question8"
+            link:"/"
         }
     ]
   
