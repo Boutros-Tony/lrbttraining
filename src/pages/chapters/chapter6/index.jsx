@@ -142,14 +142,14 @@ const NestedLayout = ({ currentQuestionId, children }) => {
                     link:"/question4"
                 },
                 {
-                    id:2,
+                    id:5,
                     title:"Exercise 1",
                     arTitle:"التمرين 1",
                     icon:"/assets/quiz-icon.png",
                     link:"/question5"
                 },
                 {
-                    id:3,
+                    id:6,
                     title:"Decent Work Conditions",
                     arTitle:"ظروف العمل اللائقة",
                     icon:"/assets/reading-icon.png",
