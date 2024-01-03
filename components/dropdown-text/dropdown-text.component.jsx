@@ -47,7 +47,8 @@ const DropDownText = ({ enTitle, enText, arTitle, arText, bgColor, textColor = "
         >
             <h3 style={{ color: textColor }}>{lang === 'ar' ? arTitle : enTitle}</h3>
             <div className={styles.arrow} style={arrowStyle}>
-                <img src="/assets/dropdown-arrow.svg" alt="Toggle dropdown" role="presentation" />
+                {/* <img src="/assets/dropdown-arrow.svg" alt="Toggle dropdown" role="presentation" /> */}
+                <svg role="presentation"  width="8" height="10" viewBox="0 0 8 10" xmlns="http://www.w3.org/2000/svg"><path d="M7 4L4 1M4 1L1 4M4 1L4 9" stroke={bgColor} stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
             </div>
         </button>
         <div 

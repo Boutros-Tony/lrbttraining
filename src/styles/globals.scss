@@ -29,6 +29,7 @@ h1,h2,h3,h4{
 }
 p{
     font-family: 'noto-light';
+    max-width: 90%;
     &:lang(ar){
         font-family: 'noto-light-arabic';
     }
