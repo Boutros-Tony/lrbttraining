@@ -37,49 +37,49 @@ const NestedLayout = ({ currentQuestionId, children }) => {
             id:2,
             title:"What is the International Labour Organization?",
             arTitle:"ما هي منظمة العمل الدولية؟",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question2"
         },
         {
             id:3,
             title:"The Employment Intensive Infrastructure Programme (EIIP)",
             arTitle:"برنامج البنية التحتية المكثفة للتوظيف (EIIP)",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question3"
         },
         {
             id:4,
             title:"EIIP In Lebanon",
             arTitle:'(EIIP) في لبنان',
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question4"
         },
         {
             id:5,
             title:"EIIP Strategy",
             arTitle:'استراتيجية EIIP',
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question5"
         },
         {
             id:6,
             title:"Contractor Obligations",
             arTitle:"التزامات المقاول",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question6"
         },
         {
             id:7,
             title:"EIIP Contractor Training Strategy",
             arTitle:'استراتيجية EIIP لتدريب المقاولين',
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question7"
         },
         {
             id:8,
             title:"Quiz",
             arTitle:'اختبار',
-            icon:"/assets/video-icon.png",
+            icon:"/assets/quiz-icon.png",
             link:"/question8"
         }
     ]

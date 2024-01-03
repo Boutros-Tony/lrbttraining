@@ -22,7 +22,7 @@ const HomePage = () => {
                     <h1>{lang === 'ar' ? "تدريب برنامج التوظيف المكثف والبنية التحتية في لبنان (EIIP) للمقاولين" : "EIIP TRAINING FOR CONTRACTORS"}</h1>
                     <h2>{lang === 'ar' ? "تدريب إلزامي للتأهيل المسبق للمقاولين الراغبين في تقديم مناقصات لمشاريع برنامج التوظيف المكثف والبنية التحتية (EIIP) لمنظمة العمل الدولية (ILO)" : "Mandatory pre-qualification training for contractors wishing to bid on ILO EIIP projects"}</h2>
                     <Link href="/chapters">
-                    {lang === 'ar' ? "ابدأ تدريبك" : "Continue Your Training"}
+                    {lang === 'ar' ? "ابدأ تدريبك" : "Begin Your Training"}
                     </Link>
                 </div>
                 <img className={styles.mainImg} src="/assets/home-banner.png" alt="" srcset="" />
