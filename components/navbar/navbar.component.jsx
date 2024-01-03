@@ -5,12 +5,15 @@ import { useState, useEffect, useRef } from "react";
 import { useSelector } from "react-redux";
 import { selectCurrentUser } from "../../store/user/user.selectors";
 import ChangeLang from "../change-lang/change-lang.component";
+import { signOutFromFirebase } from "../../firebase.utils";
+import { useRouter } from "next/router";
+import { resetStore } from "../../store/store";
 const Navbar = () => {
     const language = LanguageDetector();
     const user = useSelector(selectCurrentUser);
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const dropdownRef = useRef(null);
-
+    const router = useRouter()
     const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
 
     const handleKeyDown = (event) => {
@@ -32,7 +35,12 @@ const Navbar = () => {
             document.removeEventListener("mousedown", handleClickOutside);
         };
     }, []);
-
+    const handleSignOut = async () => {
+        await signOutFromFirebase();
+        await resetStore();
+        router.push('/')
+        
+    }
     return (
         <nav className={styles.navbar} aria-label="Main Navigation">
             <div className={styles.lfNav}>
@@ -71,7 +79,7 @@ const Navbar = () => {
                 >
                     <Link href="/profile">{language === 'ar' ? "الملف الشخصي" : "Profile"}</Link>
 <Link href="/chapters">{language === 'ar' ? "الفصول" : "Chapters"}</Link>
-<button>{language === 'ar' ? "تسجيل الخروج" : "Logout"}</button>
+<button onClick={handleSignOut}>{language === 'ar' ? "تسجيل الخروج" : "Logout"}</button>
 
                 </div>
             </div>

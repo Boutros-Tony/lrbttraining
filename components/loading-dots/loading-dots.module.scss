@@ -4,7 +4,7 @@
     justify-content: center;
     flex-direction: row;
     margin: 5px 0;
-    .dots{
+    .dot{
         width: 10px;
         height: 10px;
         background-color: var(--color-border-primary); // Change to match your button's text color
@@ -29,14 +29,4 @@
     to {
         transform: translateY(-10px);
     }
-}
-.visuallyHidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
 }
