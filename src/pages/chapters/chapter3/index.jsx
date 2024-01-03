@@ -56,77 +56,77 @@ const NestedLayout = ({ currentQuestionId, children }) => {
             id:1,
             title:"Typical site organization for LRB works",
             arTitle:"تنظيم الموقع النموذجي لأعمال LRB",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:""
         },
         {
             id:2,
             title:"Recruitment of Labour",
             arTitle:"توظيف العمالة",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question2"
         },
         {
             id:3,
             title:"Logical sequencing of LRB activities",
             arTitle:"التسلسل المنطقي لأنشطة LRB",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question3"
         },
         {
             id:4,
             title:"Importance of a well-developed Work Plan",
             arTitle:"أهمية خطة عمل متطورة",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question4"
         },
         {
             id:5,
             title:"Exercise",
             arTitle:"تمرين",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/quiz-icon.png",
             link:"/question5"
         },
         {
             id:6,
             title:"Work Plan Considerations",
             arTitle:"اعتبارات خطة العمل",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question6"
         },
         {
             id:7,
             title:"Work Plan",
             arTitle:"خطة عمل",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question7"
         },
         {
             id:8,
             title:"Sample of BoQ",
             arTitle:"عينة من BoQ",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question8"
         },
         {
             id:9,
             title:"Preparing a Work Plan",
             arTitle:"إعداد خطة العمل",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question9"
         },
         {
             id:10,
             title:"Overall planning, reporting and monitoring system",
             arTitle:"نظام التخطيط الشامل وإعداد التقارير والرصد",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question10"
         },
         {
             id:11,
             title:"Quiz",
             arTitle:'اختبار',
-            icon:"/assets/video-icon.png",
+            icon:"/assets/quiz-icon.png",
             link:"/question11"
         }
     ]

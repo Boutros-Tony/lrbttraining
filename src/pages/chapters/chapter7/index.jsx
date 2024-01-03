@@ -82,28 +82,28 @@ const NestedLayout = ({ currentQuestionId, children }) => {
             id:1,
             title:"Contract Administration",
             arTitle:"إدارة العقد",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:""
         },
         {
             id:2,
             title:"Key Contract Documents",
             arTitle:"وثائق العقد الرئيسية",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question2"
         },
         {
             id:3,
             title:"Particular Conditions - highlights - please see Annex 4b!",
             arTitle:"الشروط الخاصة - النقاط البارزة - يرجى الاطلاع على الملحق 4 ب!",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question3"
         },
         {
             id:4,
             title:"Bid Clarification and Submission: ITB 36-2022",
             arTitle:"توضيح المناقصة وتقديمها: ITB 36-2022",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question4"
         }
     ]

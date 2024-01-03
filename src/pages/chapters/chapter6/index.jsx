@@ -111,21 +111,21 @@ const NestedLayout = ({ currentQuestionId, children }) => {
                     id:1,
                     title:"Overview",
                     arTitle:'ملخص',
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:""
                 },
                 {
                     id:2,
                     title:"Legal Context",
                     arTitle:'سياق قانوني',
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question2"
                 },
                 {
                     id:3,
                     title:"ESSF Articles in the Contract Terms & Conditions",
                     arTitle:"مقالات ESSF في شروط وأحكام العقد",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question3"
                 },
             ]
@@ -138,21 +138,21 @@ const NestedLayout = ({ currentQuestionId, children }) => {
                     id:4,
                     title:"What is Decent Work",
                     arTitle:'ملخص',
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question4"
                 },
                 {
                     id:2,
                     title:"Exercise 1",
                     arTitle:"التمرين 1",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/quiz-icon.png",
                     link:"/question5"
                 },
                 {
                     id:3,
                     title:"Decent Work Conditions",
                     arTitle:"ظروف العمل اللائقة",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question6"
                 },
             ]
@@ -172,7 +172,7 @@ const NestedLayout = ({ currentQuestionId, children }) => {
                     id:8,
                     title:"Role of ILO’s Social Safeguard Officer",
                     arTitle:"دور مسؤولي الضمانات الاجتماعية البيئية في منظمة العمل الدولية",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question8"
                 }
             ]
@@ -185,21 +185,21 @@ const NestedLayout = ({ currentQuestionId, children }) => {
                     id:9,
                     title:"Approach & Steps",
                     arTitle:"النهج والخطوات",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question9"
                 },
                 {
                     id:10,
                     title:"Standard advertisement template",
                     arTitle:"نموذج إعلان معتمد",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question10"
                 },
                 {
                     id:11,
                     title:"Referrals",
                     arTitle:"الإحالات",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question11"
                 },
             ]
@@ -219,56 +219,56 @@ const NestedLayout = ({ currentQuestionId, children }) => {
                     id:13,
                     title:"General Principles",
                     arTitle:"المبادئ العامة",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question13"
                 },
                 {
                     id:14,
                     title:"Personal Protective Equipment (PPE)",
                     arTitle:"معدات الحماية الشخصية (PPE)",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question14"
                 },
                 {
                     id:15,
                     title:"Risk Assessment",
                     arTitle:"تقييم المخاطر",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question15"
                 },
                 {
                     id:16,
                     title:"Determing the Risk",
                     arTitle:"مصفوفة إدارة المخاطر",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question16"
                 },
                 {
                     id:17,
                     title:"Risk Management Matrix",
                     arTitle:"تنفيذ السلامة والصحة المهنية",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question17"
                 },
                 {
                     id:18,
                     title:"Implementation of Occupational Safety & Health",
                     arTitle:"تنفيذ السلامة والصحة المهنية",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question18"
                 },
                 {
                     id:19,
                     title:"Workers' Responsibility",
                     arTitle:"مسؤولية العمال",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question19"
                 },
                 {
                     id:20,
                     title:"Reporting Accidents on-Site",
                     arTitle:"الإبلاغ عن الحوادث في الموقع",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question20"
                 }
             ]
@@ -288,14 +288,14 @@ const NestedLayout = ({ currentQuestionId, children }) => {
                     id:22,
                     title:"What can be done ?",
                     arTitle:"ماذا يمكن فعله؟",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question22"
                 },
                 {
                     id:23,
                     title:"Promoting Inclusive Participation",
                     arTitle:"تعزيز المشاركة الشاملة",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question23"
                 },
             ]
@@ -308,21 +308,21 @@ const NestedLayout = ({ currentQuestionId, children }) => {
                     id:24,
                     title:"Why a Grievance Mechanism?",
                     arTitle:"لماذا آلية الشكاوى؟",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question24"
                 },
                 {
                     id:25,
                     title:"Grievance Channels",
                     arTitle:"قنوات الشكاوى",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question25"
                 },
                 {
                     id:26,
                     title:"Grievance Procedure",
                     arTitle:"إجراءات الشكاوى",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question26"
                 },
             ]
@@ -335,63 +335,63 @@ const NestedLayout = ({ currentQuestionId, children }) => {
                     id:27,
                     title:"Exercise 2",
                     arTitle:"تمرين 2",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/quiz-icon.png",
                     link:"/question27"
                 },
                 {
                     id:28,
                     title:"Environmental Safeguards Provisions",
                     arTitle:"أحكام الضمانات البيئية",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question28"
                 },
                 {
                     id:29,
                     title:"Social and Environmental Safeguards",
                     arTitle:"الضمانات الاجتماعية والبيئية",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question29"
                 },
                 {
                     id:30,
                     title:"Screening and Analysis",
                     arTitle:"التقييم والتحليل",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question30"
                 },
                 {
                     id:31,
                     title:"Screening and Analysis- Social Feasibility",
                     arTitle:"التقييم والتحليل-الجدوى الاجتماعية",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question31"
                 },
                 {
                     id:32,
                     title:"Screening and Analysis - Environmental Screening",
                     arTitle:"التقييم والتحليل – التقييم البيئي",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question32"
                 },
                 {
                     id:33,
                     title:"Facilitation through training",
                     arTitle:"تسهيل من خلال التدريب",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question33"
                 },
                 {
                     id:34,
                     title:"Compliance",
                     arTitle:"الامتثال",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/reading-icon.png",
                     link:"/question34"
                 },
                 {
                     id:35,
                     title:"Quiz",
                     arTitle:"اختبار",
-                    icon:"/assets/video-icon.png",
+                    icon:"/assets/quiz-icon.png",
                     link:"/question35"
                 },
             ]

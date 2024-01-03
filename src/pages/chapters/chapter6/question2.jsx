@@ -26,7 +26,7 @@ const Question2 = () => {
        enText="Legal Context" 
        arText="السياق القانوني"/>
        <HeadingTwo
-        enText={ <>Labour <CircleDot color="red" /></> }
+        enText={ <>Labour </> }
         arText="العمل"
        />
        <Paragraph
@@ -34,7 +34,7 @@ const Question2 = () => {
         arText="قانون العمل اللبناني لعام 1946: ينطبق على جميع العمال باستثناء العمال المنزليين والزراعيين. تحدد وزارة العمل الإرشادات بشأن ظروف العمل وتجري عمليات تفتيش العمل"
        />
        <HeadingTwo
-        enText={<>Environmental Protection Law <CircleDot color="blue" /> </>}
+        enText={<>Environmental Protection Law  </>}
         arText="قانون حماية البيئة"
        />
        <Paragraph

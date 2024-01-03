@@ -75,77 +75,77 @@ const NestedLayout = ({ currentQuestionId, children }) => {
             id:1,
             title:"Labour management for LRB works",
             arTitle:"إدارة العمالة لأعمال LRB",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:""
         },
         {
             id:2,
             title:"Incentive schemes for LRB works",
             arTitle:"خطط الحوافز لأعمال LRB",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question2"
         },
         {
             id:3,
             title:"Exercise 1",
             arTitle:"تمرين 1",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/quiz-icon.png",
             link:"/question3"
         },
         {
             id:4,
             title:"Task rates and Productivity Part 1",
             arTitle:"معدلات المهام والإنتاجية الجزء 1",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question4"
         },
         {
             id:5,
             title:"Exercise 2",
             arTitle:"2 تمرين",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/quiz-icon.png",
             link:"/question5"
         },
         {
             id:6,
             title:"Task rates and Productivity Part 2",
             arTitle:"معدلات المهام والإنتاجية الجزء 2",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question6"
         },
         {
             id:7,
             title:"Exercise 3",
             arTitle:"3 تمرين",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/quiz-icon.png",
             link:"/question7"
         },
         {
             id:8,
             title:"Examples of some labour productivity norms",
             arTitle:"مثال على بعض معايير إنتاجية العمالة",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question8"
         },
         {
             id:9,
             title:"Examples: Application of task work and piece work system",
             arTitle:"أمثلة: تطبيق نظام العمل المهمة ونظام العمل بالقطعة",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question9"
         },
         {
             id:10,
             title:"Incentive schemes for LRB works",
             arTitle:"برامج التحفيز لأعمال LRB",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question10"
         },
         {
             id:11,
             title:"Quiz",
             arTitle:'اختبار',
-            icon:"/assets/video-icon.png",
+            icon:"/assets/quiz-icon.png",
             link:"/question11"
         }
     ]

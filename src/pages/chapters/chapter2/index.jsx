@@ -40,84 +40,84 @@ const NestedLayout = ({ currentQuestionId, children }) => {
             id:2,
             title:"Labour vs Equipment in construction",
             arTitle:"العمل مقابل المعدات في البناء",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question2"
         },
         {
             id:3,
             title:"LRBT vs Cash-for-Work",
             arTitle:"LRBT  تجاه الأجر مقابل العمل  ",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question3"
         },
         {
             id:4,
             title:"Local Resource-based (LRB) Work Methods",
             arTitle:'أساليب العمل القائمة على الموارد المحلية (LRB)',
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question4"
         },
         {
             id:5,
             title:"Exercise",
             arTitle:'تمرين 1',
-            icon:"/assets/video-icon.png",
+            icon:"/assets/quiz-icon.png",
             link:"/question5"
         },
         {
             id:6,
             title:"Socio-economic advantages of LRBT",
             arTitle:"المزايا الاجتماعية والاقتصادية للLRBT",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question6"
         },
         {
             id:7,
             title:"LRB(perceived) Limitations",
             arTitle:'قيود LRB (المتصورة) ',
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question7"
         },
         {
             id:8,
             title:"Choice of technology - LRBT vs equipment",
             arTitle:'اختيار التكنولوجيا – LRBT مقابل المعدات',
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question8"
         },
         {
             id:9,
             title:"Exercise",
             arTitle:'تمرين 2',
-            icon:"/assets/video-icon.png",
+            icon:"/assets/quiz-icon.png",
             link:"/question9"
         },
         {
             id:10,
             title:'Local Resource-based (LRB) Work Methods',
             arTitle:'أساليب عمل LRB القائمة على الموارد المحلية',
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question10"
         },
         {
             id:11,
             title:"Employment Intensive Infrastructure Programme in Lebanon (EIIP), Retaining Walls (2020)",
             arTitle:'برنامج البنية التحتية المكثفة للعمالة في لبنان (EIIP)، الجدران الداعمة (2020)',
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question11"
         },
         {
             id:12,
             title:"When to apply LRB important considerations at planning stage",
             arTitle:'متى يتم تطبيق LRB: الاعتبارات المهمة في مرحلة التخطيط',
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question12"
         },
         {
             id:13,
             title:"Quiz",
             arTitle:'اختبار',
-            icon:"/assets/video-icon.png",
+            icon:"/assets/quiz-icon.png",
             link:"/question13"
         }
     ]

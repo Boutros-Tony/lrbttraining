@@ -72,119 +72,119 @@ const NestedLayout = ({ currentQuestionId, children }) => {
             id:1,
             title:"Understanding the costing and detailed Unit Rate Analysis",
             arTitle:"فهم التكلفة وتحليل الوحدة السعرية بالتفصيل",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:""
         },
         {
             id:2,
             title:"Sample of BoQ",
             arTitle:"عينة من BoQ",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question2"
         },
         {
             id:3,
             title:"Price components",
             arTitle:"مكونات السعر",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question3"
         },
         {
             id:4,
             title:"Unit Rate Composition",
             arTitle:"تكوين معدل الوحدة",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question4"
         },
         {
             id:5,
             title:"Exercise 1",
             arTitle:'التمرين 1',
-            icon:"/assets/video-icon.png",
+            icon:"/assets/quiz-icon.png",
             link:"/question5"
         },
         {
             id:6,
             title:"Direct Cost",
             arTitle:"التكلفة المباشرة",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question6"
         },
         {
             id:7,
             title:"Labour Cost",
             arTitle:"تكلفة العمالة",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question7"
         },
         {
             id:8,
             title:"Cost of Equipment and hand tools",
             arTitle:"تكلفة المعدات والأدوات اليدوية",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question8"
         },
         {
             id:9,
             title:"Typical hand tools for LRBT works",
             arTitle:"أدوات يدوية نموذجية لأعمال LRB",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question9"
         },
         {
             id:10,
             title:"Exercise 2",
             arTitle:"التمرين 2",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/quiz-icon.png",
             link:"/question10"
         },
         {
             id:11,
             title:"Material Cost",
             arTitle:"تكلفة المواد",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question11"
         },
         {
             id:12,
             title:"Total Direct Cost",
             arTitle:"إجمالي التكلفة المباشرة",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question12"
         },
         {
             id:13,
             title:"Exercise 3",
             arTitle:"التمرين 3",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/quiz-icon.png",
             link:"/question13"
         },
         {
             id:14,
             title:"Indirect Cost",
             arTitle:"التكاليف غير المباشرة",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question14"
         },
         {
             id:15,
             title:"Exercise 4",
             arTitle:"التمرين 4",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/quiz-icon.png",
             link:"/question15"
         },
         {
             id:16,
             title:"Unit Rate",
             arTitle:"سعر الوحدة",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/reading-icon.png",
             link:"/question16"
         },
         {
             id:17,
             title:"Quiz",
             arTitle:"اختبار",
-            icon:"/assets/video-icon.png",
+            icon:"/assets/quiz-icon.png",
             link:"/question17"
         }
     ]
