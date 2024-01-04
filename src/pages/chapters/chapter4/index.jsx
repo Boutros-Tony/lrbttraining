@@ -58,7 +58,7 @@ const Question1 = () => {
             bgColor="rgb(190, 220, 250)"
             textColor="rgb(35, 0, 80)"
         />
-        <CompletionButton chapterNumber="3" questionNumber={1}/>
+        <CompletionButton chapterNumber="4" questionNumber={1}/>
         </div>
     )
 }
