@@ -26,15 +26,24 @@ const Question2 = () => {
        enText="Legal Context" 
        arText="السياق القانوني"/>
        <HeadingTwo
-        enText={ <>Labour </> }
+        enText={ <>Labour <CircleDot enText="Lebanese Labour Law of 1946: Applicable to all workers except domestic and agricultural workers Ministry of Labour sets guidelines on working conditions and conducts labour inspections" arText="قانون العمل اللبناني لعام 1946 ينطبق على جميع العمال وأصحاب العمل باستثناء العمال المنزليين، والعمال الزراعيين، والمؤسسات المحدودة بأعضاء الأسرة فقط، والموظفين العموميين.
+        تحدد وزارة العمل الإرشادات لتنظيم التوظيف وظروف العمل لجميع الموظفين وهي مسؤولة عن إجراء تفتيش العمل.
+        " color="#c0000f" /></> }
         arText="العمل"
        />
+
+   
        <Paragraph
         enText="Lebanese Labour Law of 1946 : Applicable to all workers except domestic and agricultural workers Ministry of Labour sets guidelines on working conditions and conducts labour inspections"
         arText="قانون العمل اللبناني لعام 1946: ينطبق على جميع العمال باستثناء العمال المنزليين والزراعيين. تحدد وزارة العمل الإرشادات بشأن ظروف العمل وتجري عمليات تفتيش العمل"
        />
        <HeadingTwo
-        enText={<>Environmental Protection Law  </>}
+        enText={<>Environmental Protection Law 
+        <CircleDot 
+        color="blue"
+        enText="
+        The legal basis for the Lebanese EIA system is established in the Environment Protection Law No. 444/2002 and the EIA decree No. 8633/2012 and its annexes. The EIA decree and its annexes include all the requirements for screening, preparation of the environmental assessment and the supervision of the environmental assessment process. As per Lebanon’s Environmental Protection Law possible environmental risks should be assessed and mitigation measures and opportunities for sustainable solutions developed."
+         /> </>}
         arText="قانون حماية البيئة"
        />
        <Paragraph

@@ -1,54 +1,85 @@
 .dot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    @media screen and (max-width:700px) {
+        align-items: center;
+        justify-content: center;
+    }
     width: 1em;
     height: 1em;
     border-radius: 100%;
-    animation: growFade 2s infinite; // Apply the animation
-    margin-left: 0.5em;
-    cursor: pointer; // Optional, to indicate it's clickable
-
-    p, .closeButton {
-        display: none; // Hide these elements initially
-    }
-}
-.dot {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    border-radius: 50%; // Ensure it's always a circle
-    position: relative;
-    transition: all 0.5s ease;
     cursor: pointer;
     z-index: 2;
-
-    p, .closeButton {
-        display: none;
-    }
-
+    animation: growFade 2s infinite ease; // Apply the animation
+    margin-left: 0.5em;
+    border: none;
+    // transition: all 0.5s ease;
+ 
+    // Styles for expanded state if needed
     &.expanded {
-        width: 100vw;
-        height: 100vw; // Maintain aspect ratio for circle
-        max-width: 200vh; // Ensure it doesn't exceed viewport height
-        max-height: 200vh;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 10;
-
-        // Stop any animation when expanded
-        animation: none;
+        // Styles for text and close button visibility
+        animation: none; // Apply the animation
+        transition: none;
+        display: flex;
+        z-index: 3;
     }
 }
+
 
 
 
 @keyframes growFade {
     0% {
         opacity: 1;
-        transform: scale(0);
+      
     }
     100% {
-        opacity: 0;
-        transform: scale(1);
+        opacity: 0.2;
+      
+    }
+}
+
+.infoHolder {
+    
+    opacity: 0;
+    transform: translateY(20px); // Adjust as needed
+    display: flex;
+    opacity: 0;
+    transform: translateY(20px); // Adjust as needed
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p{
+        color: white;
+    }
+    button{
+        width: 2em;
+        height: 2em;
+        border: 1px solid white;
+    }
+}
+.infoHolder {
+  display: none;
+    opacity: 0;
+
+    margin-top: 30vh;
+    max-width: 60%;
+    p{
+        font-size: 1.5vw;
+    }
+    button{
+        border: 1px solid white;
+        padding: 2em;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border-radius: 100%;
+        margin-top: 1em;
+        cursor: pointer;
     }
 }
