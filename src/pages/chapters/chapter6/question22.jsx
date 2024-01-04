@@ -52,7 +52,7 @@ const Question22 = () => {
         arAnswer="الأجر المتساوي للعمل المتساوي هو مبدأ أساسي للعمل اللائق ويجب تنفيذه دائمًا. إذا كان العامل بحاجة إلى بناء قدرات إضافية لتحسين أدائه، فإنه من مسؤولية المقاول تزويدهم بالتدريب اللازم أثناء العمل."
         correctAnswer={false}
     />
-     <CompletionButton chapterNumber="6" questionNumber={21}/>
+     <CompletionButton chapterNumber="6" questionNumber={22}/>
         </div>
         </>
        

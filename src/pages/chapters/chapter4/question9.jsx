@@ -40,7 +40,7 @@ const Question9= () => {
             width="80%"
         />
        
-          <CompletionButton chapterNumber="4" questionNumber={8}/>
+          <CompletionButton chapterNumber="4" questionNumber={9}/>
         </div>
     )
 }
