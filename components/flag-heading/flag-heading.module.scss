@@ -3,5 +3,8 @@
     font-size: 1.3em;
     img{
         width: 10px;
+        &:lang(ar){
+            transform: rotate(180deg);
+        }
     }
 }
