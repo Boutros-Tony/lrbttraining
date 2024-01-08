@@ -44,7 +44,7 @@ const Question5 = () => {
         arAnswer={arAnswer}
         isMultiple
 />
-     <CompleteSentence/>
+     <CompleteSentence sentence={lang === 'ar' ? "يوم واحد حجم العمل الذي يمكن تحقيقه من قبل يوم عمل واحد أو معدّة خلال يوم واحد" : ""}/>
           <CompletionButton chapterNumber="4" questionNumber={5}/>
         </div>
     )
